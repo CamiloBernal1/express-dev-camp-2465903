@@ -6,8 +6,8 @@ const connectDB = require('./config/db');
 const listEndpoints = require('express-list-endpoints');
 const userRoutes = require('./Routes/UserRoutes');
 const bootcampRoutes = require('./Routes/BootcampRoutes');
-const courseRoutes = require('./Routes/CoursesRoutes');
-const reviewRoutes = require('./Routes/ReviewsRoutes');
+const courseRoutes = require('./Routes/CourseRoutes');
+const reviewRoutes = require('./Routes/ReviewRoutes');
     
     //Definiendo archivo .env
     dotenv.config({

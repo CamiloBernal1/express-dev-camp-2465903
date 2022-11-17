@@ -18,12 +18,12 @@ module.exports = {
       weeks: {
         type: Sequelize.INTEGER
       },
-      enroll_cost: {
+      enroll_cost: { 
         type: Sequelize.REAL
       },
       minimun_skill: {
-        type: Sequelize.INTEGER
-      },
+        type: Sequelize.STRING
+      }
     });
   },
   async down(queryInterface, Sequelize) {
